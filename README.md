@@ -7,7 +7,7 @@ To determine the value of attempting to achieve a perfect taxi system where hail
 
 Our models implemented Markov matrices to determine the flow of cabs between 15 distinct areas of Manhattan (Fig. 1) over an entire day. Each zone was instantiated with an initial quantity of cabs dictated by a corresponding input to the model. During each ten minute time interval, a certain percentage of the cabs seeking fares moved from their current area to another area to search for customers. This percentage was based on a numerical input between 0 and 1 called “willingness”. Of these willing drivers, the control model evenly distributed them among nearby areas. In the experimental model, taxis were distributed according to the number of expected customers in each nearby area in the next time interval. Additionally, an amount of taxis in each area, according to data we obtained, would locate a fare. These cabs were removed from the system and placed in a queue, to return when they were expected to arrive at their destinations.
 
-Fig. 1: Manhattan divided into 15 areas, from 0 to 14:
+### Fig. 1: Manhattan divided into 15 areas, from 0 to 14:
 
 ![Fig. 1](https://raw.githubusercontent.com/MGRiv/TaxiModel/master/Zones.png)
 
@@ -23,7 +23,7 @@ Fig. 1: Manhattan divided into 15 areas, from 0 to 14:
 6. The distribution of cabs for the next time interval is applied to the storage matrix. The cabs expected to reach their destinations are removed from the queue and added to the storage matrix
 7. Repeat 2-6, another 143 times
 
-Fig 2: Operation of Model
+### Fig 2: Operation of Model
 
 ![Fig. 2](https://raw.githubusercontent.com/MGRiv/TaxiModel/master/Flow.png)
 
