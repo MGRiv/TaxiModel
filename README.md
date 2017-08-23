@@ -38,3 +38,13 @@ U00 = I(1 - w)
 Control: U0N = Iw / L
 
 Experimental: U0N = Pt+1/At+1 * IW
+
+## Data and Acknowledgments
+Taxi and Limousine Commission Taxi Trip Data: http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml
+
+Research supported by the Engineering Summer Math Institute, an NSF funded program under the Cornell University Engineering Success Program (CUES), award DUE #1317501. Thank you for the opportunity and guidance you have provided us this summer. Director: Cindy Mosqueda, Diversity Programs in Engineering, Cornell University
+
+Cornell Faculty Research Mentors:
+Dr. Elizabeth Wesson, Center for Applied Mathematics
+Matt Hin, Center for Applied Mathematics
+
